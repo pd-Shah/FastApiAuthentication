@@ -54,7 +54,7 @@ class User(Model):
     def get_user(email, ):
         """ get user by email
         """
-        return User.get(email=email,)
+        return User.get(email=email, )
 
     def generate_token(self,  ACCESS_TOKEN_EXPIRED_IN=666, SECRET_KEY="SomethingSecret", SALT="dReAmBiG"):
         """generate access token

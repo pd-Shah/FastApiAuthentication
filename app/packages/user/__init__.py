@@ -12,7 +12,7 @@ async def signup(user: SchemaSignupInput):
     return await result
 
 
-@router.post('/signup', response_model=SchemaLoginOutput)
+@router.post('/login', response_model=SchemaLoginOutput)
 async def login(user: SchemaLoginInput):
     result = login_logic(user)
     return await result

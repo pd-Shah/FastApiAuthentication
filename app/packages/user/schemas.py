@@ -11,10 +11,10 @@ class SchemaSignupInput(BaseModel):
     password: str
 
 
-class SchemaLoginInput:
+class SchemaLoginOutput(BaseModel):
     token: str
 
 
-class SchemaLoginOutput:
+class SchemaLoginInput(BaseModel):
     email: str
     password: str

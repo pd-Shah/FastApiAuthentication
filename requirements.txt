@@ -10,7 +10,7 @@ hypercorn==0.14.3
 hyperframe==6.0.1
 idna==3.4
 iso8601==1.1.0
-itsdangerous==2.1.2
+itsdangerous==1.1.0
 MarkupSafe==2.1.2
 priority==2.0.0
 pycodestyle==2.10.0
