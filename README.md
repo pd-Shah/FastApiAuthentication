@@ -1,20 +1,17 @@
-## A service to manipulate the data
+## A service That could to lot of things ;)
 
 all `Database` models define here, therefore no model should define anywhere except here
 
-### locall run
+### how to run
 
 to run the project locally:
 
 ```bash
-
-```
-### Fakerization
-to add some fake data run:
-
-```
-
+pd@dhcppc4 (dev)> python -m venv venv
+pd@dhcppc4 (dev)> source venv/bin/activate.fish
+pd@dhcppc4 (dev)> pip install -r requirements.txt
+pd@dhcppc4 (dev)> hypercorn app --reload
 ```
 
-then go to the page `http://127.0.0.1:5000/admin/` all models are accessable.
+then go to the page `http://127.0.0.1:8000/docs`.
 
