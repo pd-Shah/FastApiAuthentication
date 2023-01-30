@@ -5,7 +5,6 @@ from tortoise.contrib.fastapi import register_tortoise
 from app.packages.user.models import User
 from app.packages.user import router as user_router
 
-# Factory method to make a Flask app
 app = FastAPI(
     import_name=__name__,
     instance_relative_config=True,
