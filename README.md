@@ -1,4 +1,4 @@
-## A service That could to lot of things ;)
+## A service That could do lots of things ;)
 
 blah blah blaaah
 
